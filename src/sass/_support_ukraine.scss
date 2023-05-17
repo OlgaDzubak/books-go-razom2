@@ -1,0 +1,259 @@
+// ==========MOBILE========//
+@media screen and (max-width: 767px) {}
+
+// /==========TABLET========== //
+@media screen and (min-width: 768px) {}
+
+// =========DESKTOP===========//
+@media screen and (min-width: 1440px) {}
+
+.support-ukraine-container {
+  min-width: 335px;
+
+  padding-top: 24px;
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-bottom: 24px;
+
+  border-radius: 16px;
+  background: radial-gradient(183.6% 183.01% at 59.76% -23.42%, #4F2EE8 18.03%, #FFFFFF 100%);
+  box-shadow: 0px 10px 10px rgba(245, 245, 247, 0.1);
+}
+
+.support-ukraine-container.support-ukraine-title-and-list{
+  padding-left: 40px;
+  padding-top: 24px;
+}
+
+@media screen and (min-width: 767.8px) {
+
+  .support-ukraine-title-and-list {
+    width: 335px;
+    margin-bottom: 32px;;
+  }
+}
+
+@media screen and (max-width: 768px) and (min-width: 1440px) {
+  .support-ukraine-container {
+    height: 490px;
+    width: 335px;
+  }
+  .support-ukraine-title-and-list {
+
+    padding-left: 40px;
+    margin-bottom: 40px; 
+    // margin-left: auto;
+    // margin-right: auto;
+    overflow-y: hidden;
+  }
+}
+
+.support-ukraine-text-block {
+  
+      display: flex;
+      align-items: flex-start;
+      padding: 0px;
+      //padding-left: 40px;
+      margin-bottom: 40px;
+      gap: 12px;
+  
+    }
+
+@media screen and (max-width: 334px) {
+  // .support-ukraine-container {
+  //   height: 352px;
+
+  // }
+  .support-ukraine-title {
+    font-size: 26px;
+    line-height: 1.14;
+    letter-spacing: -0.04em;
+    margin: 0;
+
+  }
+}
+
+@media screen and (min-width: 335px) {
+  // .support-ukraine-container {
+  //   height: 352px;
+
+  // }
+  .support-ukraine-title {
+    font-size: 28px;
+    line-height: 1.14;
+    margin: 0px;
+
+    // font-family: 'DM Sans';
+      // font-style: normal;
+      // font-weight: 700;
+     
+      /* identical to box height, or 114% */
+    
+      letter-spacing: -0.04em;    
+      
+  }
+}
+
+.svg-support-ukraine {
+  fill: #ffffff;
+}
+
+//____________
+
+.support-ukraine-gallery {
+  list-style: none;
+  counter-reset: my-awesome-counter;
+  margin: 0;
+  padding: 0;
+
+}
+
+.support_gallery_item {
+  height: 18px;
+  font-size: 14px;
+  line-height: 1.29;
+  color: #ffffff;
+  counter-increment: my-awesome-counter;
+  // display: flex;
+
+}
+
+// .support_gallery_item::before {
+//   content: "0" counter(my-awesome-counter);
+//   font-size: 14px;
+
+//   line-height: 1.29;
+//   letter-spacing: -0.04em;
+//   margin-right: 16px;
+
+//   width: 14px;
+//   height: 18px;
+// }
+.support_gallery_number{
+  font-size: 14px;
+  
+  line-height: 1.29;
+  letter-spacing: -0.04em;
+  margin-right: 16px;
+  
+  width: 14px;
+  height: 18px;
+}
+
+
+.support_gallery_link_img {
+  // display: flex;
+  // align-items: center;
+  // justify-content: start ;
+  width: 100%;
+  height: 32px;
+}
+
+//____________
+.scroll-up-btn {
+  margin-top: 16px;
+  margin-left: auto;
+  margin-right: auto;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  border: none;
+  cursor: pointer;
+  background-color: #ffffff;
+
+  transition-duration: 1000ms;
+}
+
+@media screen and (min-width: 768px) {
+  .scroll-up-btn {
+    margin-top: 32px;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .scroll-up-btn {
+    margin-top: 40px;
+  }
+}
+
+.scroll-up-btn:hover {
+  transform: rotate(180deg);
+}
+
+.scroll-up-icon {
+  fill: #4F2EE8;
+}
+
+// // < !-- Swiper -->
+html,
+body {
+  position: relative;
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+
+  font-size: 14px;
+  background: #eee;
+  font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+  color: #ffffff !important;
+  // overflow: hidden;
+}
+
+.swiper {
+  width: 159px !important;
+  height: 188px !important;
+  margin: 0 !important;
+  //padding-left: 40px;
+
+  
+}
+
+@media screen and (min-width: 768px) {
+  .swiper {
+    height: 292px !important;
+  }
+}
+
+.swiper-wrapper {
+  height: 188px;
+  width: 159px;
+
+  // overflow: initial;
+}
+
+.swiper-slide {
+  display: flex;
+  justify-content: flex-start !important;
+  align-items: center;
+  text-align: left !important;
+
+  width: 159px !important;
+  height: 32px !important;
+
+  font-size: 18px;
+  background: transparent;
+
+
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  // height: 100%;
+  object-fit: contain;
+}
+
+.swiper-button-next {
+  position: static !important;
+  margin-top: 0 !important;
+
+
+}
